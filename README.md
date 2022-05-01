@@ -1,2 +1,4 @@
-# Demo to learn some hooks
+# react template
+
+## Demo to learn some hooks
 - useState hooks cover up case
