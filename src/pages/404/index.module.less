@@ -1,0 +1,23 @@
+@goBackColor:rgba(90, 219, 252, 1);
+.page-not-found {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 600px;
+  }
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 120px;
+    text-align: center;
+    & > span:nth-child(1) {
+      font-size: 18px;
+      margin: 24px 0;
+      color: @goBackColor;
+      cursor: pointer;
+    }
+  }
+}
