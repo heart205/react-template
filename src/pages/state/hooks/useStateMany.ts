@@ -4,9 +4,9 @@
  * @Date 2022-05-01
  */
 import { render } from '../../../main'
-let state: unknown[] = []
+const state: unknown[] = []
 // 用于存储改变state的值
-let setState: ((state: unknown) => void)[] = []
+const setState: ((state: unknown) => void)[] = []
 let stateIndex = 0
 
 // 改进setState

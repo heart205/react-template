@@ -1,5 +1,3 @@
 export default () => {
-  return <>
-    home
-  </>
+  return <>home</>
 }

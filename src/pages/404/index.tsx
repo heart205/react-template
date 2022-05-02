@@ -2,8 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import images from '../../assets/images/page-not-found.svg'
 import Less from './index.module.less'
-interface Props {}
-const PageNotFound: React.FC<Props> = function () {
+const PageNotFound: React.FC<Record<string, never>> = function () {
   const navigate = useNavigate()
   console.log(navigate)
   return (
