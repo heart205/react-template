@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^16.2.4",
